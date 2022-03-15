@@ -1,0 +1,95 @@
+body {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	background-color: #023178;
+	width: 1250px;
+	margin: auto;
+	color: black;
+	padding: 5px;
+}
+/* nav ------------------------------------------------*/
+#menu{
+	font: bold 14px verdana, sans-serif;
+	border-bottom: #AD7816 groove 20px;
+	text-align: center;
+	word-spacing: 15em;
+	margin-top: 3px;
+}
+
+#menu li{
+	list-style-type: none;
+	text-decoration: none;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+#menu li a{
+	color:white;
+}
+a:hover{
+	background-color: #FF9E00;
+}
+/* aside -----------------------------------------*/
+aside{
+	background-color: #C2DBA2;
+	width: 187px;
+	height: 650px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	padding-left: 18px;
+	padding-right: 18px;
+	background-color: #C2DBA2;
+	color: black;
+	font-size: 15px;
+}
+
+aside img{
+	box-shadow:  5px 5px 8px #FFBD00;
+	margin:5px;
+}
+
+aside a{
+	color: white;
+}
+.textoaside{
+	margin-bottom: 1px;
+	margin-top: 1px;
+}
+
+ 
+/* section ----------------------------------------*/
+section{
+	background-color: #63799A;
+	width: 960px;
+	height: 640px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	float:right;
+	border-left: 15px solid orange;
+}
+
+/* footer ----------------------------------------------*/
+footer{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	border-top: 2px solid #999999;
+	color: white;
+	font-size: 20px;
+	font-family: arial;
+	text-align: center;
+}
+
+.menupie a{
+	text-decoration: none;
+	color: white;
+}
+footer p{
+	margin-top: 0px;
+	display: inline-block;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/> 
+  <meta name="author" content="Marian García"/>
+  <meta name="description" content="Contacto"/>
+  <title>Practica Final I</title> <!-- lo que aparece en la pestaña del navegador-->
+  <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+  
+
+  <style>
+    .datospersonales {
+      font-size: 15px;
+    }
+    .datospersonales input{
+      font-size: 15px;
+    }
+    .datospersonales select{
+      font-size: 15px; 
+    }
+  </style>
+</head>
+
+<body>
+  <div id="cuerpo">
+  <header>
+    <div>
+      <img src="../imagenes_video/ciclismo.png" alt="Logo ciclista"/>
+      <img src="../imagenes_video/logoformal.png" alt="Asociación Ciclista de Corvera"/>
+    </div>
+  </header>
+  
+  <nav>
+    <ul id="menu">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="#">Noticias</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <header id="titulosection">
+        <img src="../imagenes_video/contacto.png" alt="Contacto"/>
+        <img src="../imagenes_video/formarparte.png" alt="Formar Parte"/>
+    </header>
+    
+    <div class="datospersonales">
+    <form action="#" method="GET">
+      <fieldset>
+        <legend>Datos personales</legend>
+          <br/>
+          Nombre:
+            <input type="text" name="nombre" required="required" placeholder="Nombre"><br/>
+          Apellidos:
+            <input type="text" name="apellidos" required="required" placeholder="Apellidos"><br/>
+          Fecha de Nacimiento:
+            <input type="date" name="nacimiento" required="required"> <br/>
+          Email:
+            <input type="email" name="email" required="required" placeholder="ejemplo@email.com"><br/>
+          Direccion:
+            <input type="text" name="direccion" required="required" placeholder="Direccion"><br/>
+          <br/>
+      </fieldset>
+      <br/>
+      <fieldset>
+        <legend>Información</legend>
+        <br/>
+        ¿Cuanto tiempo le dedicas? (por semana)
+        <select>
+          <option value="1">De 1 a 5 horas</option>
+          <option value="2">De 6 a 10 horas</option>
+          <option value="3">De 11 a 15 horas</option>
+          <option value="4">De 16 a 20 horas</option>
+          <option value="5">Mas de 20 horas</option>
+        </select>
+        <br/>
+        ¿Estás en alguna asociacion? 
+        <input type="radio" name="asociacion" value="Sí">Sí
+        <input type="radio" name="asociacion" value="No">No
+        <br/>
+        ¿Con qué fin deseas ser miembro de nuestra asociación?<br/>
+        <input type="checkbox" name="motivo" value="conocer">Para conocer gente que comparta mi gusto por el ciclismo<br/>
+        <input type="checkbox" name="motivo" value="rutas">Para hacer rutas<br/>
+        <input type="checkbox" name="motivo" value="entrenar">Para entrenarme<br/>
+
+      </fieldset>  
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      <input type="image" src="../imagenes_video/enviar.png" alt="Enviar"  height="100" width="110"/>
+      
+    </form>
+    </div>
+
+  </section>
+
+  <aside>
+    <p><strong>La etapa reina de la Vuelta España saldrá de Corvera.</strong></p>
+    <img src="../imagenes_video/vueltaespaña.jpg" alt="Vuelta España"/>
+    <p class="textoaside">El 9 de septiembre tendrá lugar la Subida al Angliru, penúltima etapa de la prueba, y la caravana saldrá del concejo corverano</p>
+    <a href="#">Ver más...</a>
+    
+    <p><strong>Corvera celebra su gran fiesta del deporte.</strong></p>
+    <img src="../imagenes_video/homenaje.jpg" alt="Homenaje"/>
+    <p class="textoaside">El concejo rinde homenaje a sus deportistas y clubes, en un año en el que han cosechado más de un centenar de títulos en campeonatos de Asturias y una veintena en Nacionales</p>
+    <a href="#">Ver más...</a>
+  </aside>
+
+  <footer>
+    <div class="menupie" style="display: inline;">
+        &copy; Copyrigth Corvera 2020  
+        &emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="mailto:web@gmail.com">email:asociacionciclistacorvera@gmail.com</a>
+    </div>
+    <p>&emsp;&emsp;&emsp;&emsp;&emsp;
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:44px;height:15px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+    </p>
+  </footer>
+</div>
+</body>
+</html>
